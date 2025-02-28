@@ -1,6 +1,6 @@
-# Password Generator Chrome Extension
+# CipherKey 🔑 Chrome Extension
 
-This is a simple and aesthetically pleasing password generator Chrome extension. It allows users to generate secure passwords with customizable options and copy them to the clipboard with ease.
+This is a simple and aesthetically pleasing password generator Chrome extension called CipherKey 🔑. It allows users to generate secure passwords with customizable options and copy them to the clipboard with ease.
 
 ## Features
 
@@ -14,7 +14,7 @@ This is a simple and aesthetically pleasing password generator Chrome extension.
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/yourusername/password-gen-chrome.git
+   git clone https://github.com/Zubimendi/CipherKey.git
 2. Navigate to the project directory:
    ```bash
    cd password-gen-chrome
