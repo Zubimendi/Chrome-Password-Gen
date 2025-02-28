@@ -1,0 +1,116 @@
+/* Dark-themed styles.css */
+body {
+    background-color: #2d2a55; /* Fallback color */
+    background-image: url('/assets/background.webp'); /* Update with the correct path */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: 'Roboto', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.toast {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+}
+
+.toast.show {
+    visibility: visible;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;} 
+    to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadeout {
+    from {bottom: 30px; opacity: 1;} 
+    to {bottom: 0; opacity: 0;}
+}
+.container {
+    background: #1c1a40;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+input[type="text"] {
+    flex-grow: 1;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 5px;
+    outline: none;
+}
+.password-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Ensure even spacing */
+    background: #333;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+#copyBtn {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 10px; /* Add margin for spacing */
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: flex-end;
+}
+
+label, input[type="number"] {
+    display: block;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.options label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 5px 0;
+}
+
+button {
+    background: #5a4fcf;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #4840b5;
+    background: #6a5fcf;
+}
