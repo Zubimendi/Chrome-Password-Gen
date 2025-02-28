@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "Secure Password Generator",
+    "name": "CipherKey 🔑",
     "version": "1.0",
-    "description": "Generate strong, random passwords with one click.",
+    "description": "Generate strong, random passwords with a few clicks.",
     "icons": {
       "16": "icons/icon16.png",
       "48": "icons/icon48.png",
@@ -10,7 +10,7 @@
     },
     "action": {
       "default_popup": "popup.html",
-      "default_icon": "icons/icon48.png"
+      "default_icon": "icons/icon128.png"
     },
     "permissions": ["clipboardWrite"],
     "host_permissions": []
